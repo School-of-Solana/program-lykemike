@@ -1,0 +1,22 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+anchor_project = "5eW63Ha7mXHUPaKBp5Scy7GfuwxoSYhfFbv6P9SkSiw4"
+
+[programs.devnet]
+anchor_project = "5eW63Ha7mXHUPaKBp5Scy7GfuwxoSYhfFbv6P9SkSiw4"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
