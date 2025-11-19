@@ -1,6 +1,6 @@
 # Project Description
 
-**Deployed Frontend URL:** [TODO: Link to your deployed frontend]
+**Deployed Frontend URL:** https://frontend-two-swart-37.vercel.app/
 
 **Solana Program ID:** `5eW63Ha7mXHUPaKBp5Scy7GfuwxoSYhfFbv6P9SkSiw4`
 
